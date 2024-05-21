@@ -1,0 +1,22 @@
+uuid: 558072b9-6a7a-416b-9f45-18c12545b778
+langcode: en
+status: true
+dependencies:
+  theme:
+    - greenscape
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: greenscape_secondary_local_tasks
+theme: greenscape
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

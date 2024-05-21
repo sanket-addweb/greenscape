@@ -1,0 +1,19 @@
+name: Green scape
+type: theme
+description: 'Green scape subtheme based on stable9 theme.'
+'base theme': stable9
+core_version_requirement: '^9.4 || ^10'
+starterkit: true
+libraries:
+  - greenscape/global-styling
+regions:
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  highlighted: 'Highlighted'
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+  hidden: Hidden

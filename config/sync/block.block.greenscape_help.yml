@@ -1,0 +1,22 @@
+uuid: 91b33cdb-1b9d-4b8f-a29a-dc36e927a7fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - greenscape
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: greenscape_help
+theme: greenscape
+region: highlighted
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

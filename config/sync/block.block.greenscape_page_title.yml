@@ -1,0 +1,20 @@
+uuid: f887b877-a647-48e4-8058-669407a56e4a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - greenscape
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: greenscape_page_title
+theme: greenscape
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 6e88dc23-76e5-45d6-aa18-e65f5ed48485
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - greenscape
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: greenscape_breadcrumbs
+theme: greenscape
+region: breadcrumb
+weight: -8
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

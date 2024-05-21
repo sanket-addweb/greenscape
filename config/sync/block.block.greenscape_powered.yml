@@ -1,0 +1,22 @@
+uuid: c740e74b-81f0-4532-99a3-4727e9dd932b
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - greenscape
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: greenscape_powered
+theme: greenscape
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

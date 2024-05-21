@@ -1,0 +1,23 @@
+uuid: 7d044492-2e93-4577-add8-096505cfc38e
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - greenscape
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: greenscape_search_form_narrow
+theme: greenscape
+region: nav_additional
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

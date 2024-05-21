@@ -47,4 +47,7 @@ module:
 theme:
   olivero: 0
   claro: 0
+  stable9: 0
+  greenscape: 0
+  gin: 0
 profile: standard

@@ -1,0 +1,22 @@
+uuid: 7e3b7f23-9bcd-4afa-b8db-e4e516af2582
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - greenscape
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: greenscape_content
+theme: greenscape
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

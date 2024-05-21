@@ -1,0 +1,23 @@
+uuid: edc8beca-d3b3-4867-8920-aa3b1faea735
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - greenscape
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: greenscape_search_form_wide
+theme: greenscape
+region: nav_additional
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
