@@ -1,0 +1,30 @@
+uuid: 4c47c8e9-5710-4a2b-b114-87d02b3f3775
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner:9a282984-ced3-49de-a0b4-8ca34f4c828a'
+  module:
+    - block_content
+    - system
+  theme:
+    - greenscape
+id: greenscape_banner
+theme: greenscape
+region: header_banner
+weight: -9
+provider: null
+plugin: 'block_content:9a282984-ced3-49de-a0b4-8ca34f4c828a'
+settings:
+  id: 'block_content:9a282984-ced3-49de-a0b4-8ca34f4c828a'
+  label: Banner
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
