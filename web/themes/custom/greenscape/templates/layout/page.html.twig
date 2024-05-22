@@ -42,43 +42,68 @@
  * @see html.html.twig
  */
 #}
-<div class="layout-container">
+<div class="header_section">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        {{ page.nav_branding }}
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          {{ page.nav_main }}
+        </div>
+    </nav>
+  </div>
+{# </div> #}
 
-  <header role="banner">
-    {{ page.nav_branding }}
-    {{ page.nav_main }}
-    {{ page.nav_additional }}
-  </header>
+{{ page.breadcrumb }}
 
-  {{ page.breadcrumb }}
+{{ page.highlighted }}
 
-  {{ page.highlighted }}
+<main role="main">
+  <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-  <main role="main">
-    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+  <div class="layout-content">
+    {{ page.content }}
+  </div>{# /.layout-content #}
 
-    <div class="layout-content">
-      {{ page.content }}
-    </div>{# /.layout-content #}
-
-    {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-    {% endif %}
-
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
-      </aside>
-    {% endif %}
-
-  </main>
-
-  {% if page.footer %}
-    <footer role="contentinfo">
-      {{ page.footer }}
-    </footer>
+  {% if page.sidebar_first %}
+    <aside class="layout-sidebar-first" role="complementary">
+      {{ page.sidebar_first }}
+    </aside>
   {% endif %}
 
-</div>{# /.layout-container #}
+  {% if page.sidebar_second %}
+    <aside class="layout-sidebar-second" role="complementary">
+      {{ page.sidebar_second }}
+    </aside>
+  {% endif %}
+
+</main>
+
+{% if page.footer %}
+  <footer role="contentinfo">
+    <div class="footer_section layout_padding">
+      <div class="container">
+        <div class="footer_section_2">
+            <div class="row">
+              {{ page.footer }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+{% endif %}
+
+{% if page.copyright %}
+  <div class="copyright_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          {{ page.copyright }}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}

@@ -1,0 +1,25 @@
+uuid: 70409270-3bad-4159-8401-467da4cd24f9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:contact_us:ec4b80b5-f95d-4c5d-b850-034519436f2d'
+  module:
+    - block_content
+  theme:
+    - greenscape
+id: contactus
+theme: greenscape
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:ec4b80b5-f95d-4c5d-b850-034519436f2d'
+settings:
+  id: 'block_content:ec4b80b5-f95d-4c5d-b850-034519436f2d'
+  label: 'Contact Us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

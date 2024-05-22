@@ -11,7 +11,7 @@ _core:
 id: greenscape_powered
 theme: greenscape
 region: footer
-weight: -7
+weight: -5
 provider: null
 plugin: system_powered_by_block
 settings:

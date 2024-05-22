@@ -1,10 +1,18 @@
 global-styling:
   css:
     theme:
+      css/bootstrap.min.css: {}
+      css/style.css: {}
+      css/responsive.css: {}
+      css/jquery.mCustomScrollbar.min.css: {}
+      'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css': { type: external }
+      'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap': { type: external }
+      'https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,700&display=swap&subset=latin-ext': { type: external }
+      css/owl.carousel.min.css: {}
+      'https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css': { type: external }
       # css/animate.min.css: {}
       # css/bootstrap.css: {}
       # css/bootstrap.css.map: {}
-      # css/bootstrap.min.css: {}
       # css/bootstrap.min.css.map: {}
       # css/bootstrap-grid.css: {}
       # css/bootstrap-grid.css.map: {}
@@ -18,30 +26,27 @@ global-styling:
       # css/font-awesome.min.css: {}
       # css/icomoon.css: {}
       # css/jquery.fancybox.min.css: {}
-      # css/jquery.mCustomScrollbar.min.css: {}
       # css/jquery-ui.css: {}
       # css/meanmenu.css: {}
       # css/nice-select.css: {}
       # css/normalize.css: {}
-      # css/owl.carousel.min.css: {}
-      # css/responsive.css: {}
       # css/slick.css: {}
-      # css/style.css: {}
   js:
+    js/jquery.min.js: {}
+    js/popper.min.js: {}
+    js/bootstrap.bundle.min.js: {}
+    js/jquery-3.0.0.min.js: {}
+    js/plugin.js: {}
+    js/jquery.mCustomScrollbar.concat.min.js: {}
+    js/custom.js: {}
+    js/owl.carousel.js: {}
     # js/bootstrap.bundle.js: {}
     # js/bootstrap.bundle.js.map: {}
-    # js/bootstrap.bundle.min.js: {}
     # js/bootstrap.bundle.min.js.map: {}
     # js/bootstrap.js: {}
     # js/bootstrap.js.map: {}
     # js/bootstrap.min.js: {}
     # js/bootstrap.min.js.map: {}
-    # js/custom.js: {}
-    # js/jquery.mCustomScrollbar.concat.min.js: {}
-    # js/jquery.min.js: {}
     # js/jquery.validate.js: {}
-    # js/jquery-3.0.0.min.js: {}
     # js/modernizer.js: {}
-    # js/plugin.js: {}
-    # js/popper.min.js: {}
     # js/slider-setting.js: {}
