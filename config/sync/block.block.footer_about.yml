@@ -1,0 +1,25 @@
+uuid: 908acb43-88ff-4e31-8588-3074131ec36e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9a49bc8d-d1a9-4844-85f9-17e66ae1e31d'
+  module:
+    - block_content
+  theme:
+    - greenscape
+id: footer_about
+theme: greenscape
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:9a49bc8d-d1a9-4844-85f9-17e66ae1e31d'
+settings:
+  id: 'block_content:9a49bc8d-d1a9-4844-85f9-17e66ae1e31d'
+  label: About
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

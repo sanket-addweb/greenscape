@@ -1,0 +1,25 @@
+uuid: 975274d3-f5d3-4878-a902-d07b3bcd7dc5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a1edaf9c-ed69-4259-a5ab-7c59c42b464c'
+  module:
+    - block_content
+  theme:
+    - greenscape
+id: greenscape_copyright
+theme: greenscape
+region: copyright
+weight: 0
+provider: null
+plugin: 'block_content:a1edaf9c-ed69-4259-a5ab-7c59c42b464c'
+settings:
+  id: 'block_content:a1edaf9c-ed69-4259-a5ab-7c59c42b464c'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

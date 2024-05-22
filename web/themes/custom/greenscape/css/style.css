@@ -965,6 +965,14 @@ textarea#comment.massage-bt::placeholder {
     margin: 0px;
 }
 
+.lorem_text p{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px;
+}
+
 .location_text {
     width: 100%;
     float: left;

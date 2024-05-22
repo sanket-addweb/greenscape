@@ -1,0 +1,23 @@
+uuid: e64b4d1f-da6c-42ec-9153-f59b3c742a77
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.contact_us
+    - field.storage.block_content.field_phone_link
+  module:
+    - link
+id: block_content.contact_us.field_phone_link
+field_name: field_phone_link
+entity_type: block_content
+bundle: contact_us
+label: 'Phone link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link
