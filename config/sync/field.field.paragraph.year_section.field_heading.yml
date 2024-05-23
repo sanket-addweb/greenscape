@@ -1,0 +1,19 @@
+uuid: abaeb973-329d-441a-849d-3c0919562264
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading
+    - paragraphs.paragraphs_type.year_section
+id: paragraph.year_section.field_heading
+field_name: field_heading
+entity_type: paragraph
+bundle: year_section
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

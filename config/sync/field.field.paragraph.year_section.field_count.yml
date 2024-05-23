@@ -1,0 +1,23 @@
+uuid: 51b13765-f59b-4cb8-b959-5c4fdb19120f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_count
+    - paragraphs.paragraphs_type.year_section
+id: paragraph.year_section.field_count
+field_name: field_count
+entity_type: paragraph
+bundle: year_section
+label: Count
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

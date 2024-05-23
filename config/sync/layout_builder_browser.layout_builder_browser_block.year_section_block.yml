@@ -1,0 +1,11 @@
+uuid: f0c96188-2981-4e01-8db9-721a44e51e60
+langcode: en
+status: true
+dependencies: {  }
+id: year_section_block
+block_id: 'inline_block:year_section_block'
+category: green_scape
+label: 'Year Section Block'
+image_path: ''
+image_alt: ''
+weight: -100

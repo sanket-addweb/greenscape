@@ -1,0 +1,10 @@
+uuid: 0b4aca58-12e1-4793-85ef-29b8c4ec54de
+langcode: en
+status: true
+dependencies: {  }
+id: year_section
+label: 'Year section'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
