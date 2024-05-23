@@ -44,28 +44,14 @@
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
     not paragraph.isPublished() ? 'paragraph--unpublished',
-    'container'
+    'col-md-3'
   ]
 %}
 {% block paragraph %}
-  {# <div class="carousel-item"> #}
   <div{{ attributes.addClass(classes) }}>
     {% block content %}
-      {# <div class="container"> #}
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="banner_taital_main">
-              <h1 class="banner_taital">{{ content.field_title }}</h1>
-              <div class="banner_text"> {{ content.field_description }} </div>
-              <div class="btn_main">
-                <div class="started_text"><a href="{{ content.field_cta.0['#url'] }}">{{ content.field_cta.0['#title'] }}</a></div>
-                <div class="started_text active"><a href="{{ content.field_cta.1['#url'] }}">{{ content.field_cta.1['#title'] }}</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      {# </div> #}
+      <h1 class="year_taital">{{ content.field_count }}</h1>
+      <br><span class="year_text">{{ content.field_heading.0|raw }}<br>{{ content.field_sub_heading.0|raw }}</span>
     {% endblock %}
   </div>
-  {# </div> #}
 {% endblock paragraph %}

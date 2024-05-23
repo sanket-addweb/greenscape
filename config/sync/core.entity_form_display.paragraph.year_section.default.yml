@@ -1,0 +1,40 @@
+uuid: 249042e1-0545-4215-89ee-af9955b34b4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.year_section.field_count
+    - field.field.paragraph.year_section.field_heading
+    - field.field.paragraph.year_section.field_sub_heading
+    - paragraphs.paragraphs_type.year_section
+id: paragraph.year_section.default
+targetEntityType: paragraph
+bundle: year_section
+mode: default
+content:
+  field_count:
+    type: number
+    weight: 0
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_heading:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_sub_heading:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

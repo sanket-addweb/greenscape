@@ -1,0 +1,8 @@
+uuid: 6dc9dfee-51ca-4547-929a-310ce0e5f217
+langcode: en
+status: true
+dependencies: {  }
+id: year_section_block
+label: 'Year Section Block'
+revision: 0
+description: ''
