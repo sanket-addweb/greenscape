@@ -11,7 +11,7 @@ _core:
 id: greenscape_search_form_wide
 theme: greenscape
 region: nav_additional
-weight: -5
+weight: -8
 provider: null
 plugin: search_form_block
 settings:

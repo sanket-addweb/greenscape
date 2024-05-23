@@ -25,6 +25,7 @@
         "drupal/gin_toolbar": "^1.0@rc",
         "drupal/layout_builder_browser": "^1.6",
         "drupal/layout_builder_modal": "^1.2",
+        "drupal/paragraphs": "^1.17",
         "drush/drush": "^12.5"
     },
     "conflict": {

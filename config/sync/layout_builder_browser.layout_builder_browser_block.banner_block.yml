@@ -1,0 +1,11 @@
+uuid: a1959b70-b16e-4fe3-a08d-e427c450ffda
+langcode: en
+status: true
+dependencies: {  }
+id: banner_block
+block_id: 'inline_block:banner'
+category: green_scape
+label: 'Banner Block'
+image_path: ''
+image_alt: ''
+weight: -100
