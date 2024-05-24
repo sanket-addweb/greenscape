@@ -1,18 +1,18 @@
-uuid: 5c8de4be-973d-444a-8d3e-419afcd5a9f1
+uuid: 25212ef3-4e36-4e68-9ee1-ab7f0d955cd0
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.year_section_block
-    - field.storage.block_content.field_year_section
-    - paragraphs.paragraphs_type.year_section
+    - block_content.type.our_services_block
+    - field.storage.block_content.field_our_services
+    - paragraphs.paragraphs_type.our_services
   module:
     - entity_reference_revisions
-id: block_content.year_section_block.field_year_section
-field_name: field_year_section
+id: block_content.our_services_block.field_our_services
+field_name: field_our_services
 entity_type: block_content
-bundle: year_section_block
-label: 'Year section'
+bundle: our_services_block
+label: 'Our Services'
 description: ''
 required: false
 translatable: false
@@ -22,16 +22,16 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
-      year_section: year_section
+      our_services: our_services
     negate: 0
     target_bundles_drag_drop:
       banner:
-        weight: 3
+        weight: 4
         enabled: false
       our_services:
         weight: 5
-        enabled: false
-      year_section:
-        weight: 4
         enabled: true
+      year_section:
+        weight: 6
+        enabled: false
 field_type: entity_reference_revisions

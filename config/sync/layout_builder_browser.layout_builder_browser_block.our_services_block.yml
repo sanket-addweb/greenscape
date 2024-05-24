@@ -1,0 +1,11 @@
+uuid: 908587c1-1565-4c39-87ea-4d5034b900d8
+langcode: en
+status: true
+dependencies: {  }
+id: our_services_block
+block_id: 'inline_block:our_services_block'
+category: green_scape
+label: 'Our Services Block'
+image_path: ''
+image_alt: ''
+weight: -100
