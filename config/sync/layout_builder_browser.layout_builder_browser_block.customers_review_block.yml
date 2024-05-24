@@ -1,0 +1,11 @@
+uuid: bdf17157-446d-45be-adbc-dda5d92f19bb
+langcode: en
+status: true
+dependencies: {  }
+id: customers_review_block
+block_id: 'inline_block:customers_review_block'
+category: green_scape
+label: 'Customers review Block'
+image_path: ''
+image_alt: ''
+weight: -100

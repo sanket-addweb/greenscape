@@ -1,0 +1,40 @@
+uuid: 2f00f08a-bc6f-4f7a-9c53-193ba2b30e18
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.customers_review_block
+    - field.storage.block_content.field_customers_review
+    - paragraphs.paragraphs_type.customers_review
+  module:
+    - entity_reference_revisions
+id: block_content.customers_review_block.field_customers_review
+field_name: field_customers_review
+entity_type: block_content
+bundle: customers_review_block
+label: 'Customers review'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      customers_review: customers_review
+    negate: 0
+    target_bundles_drag_drop:
+      banner:
+        weight: 5
+        enabled: false
+      customers_review:
+        weight: 6
+        enabled: true
+      our_services:
+        weight: 7
+        enabled: false
+      year_section:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions
