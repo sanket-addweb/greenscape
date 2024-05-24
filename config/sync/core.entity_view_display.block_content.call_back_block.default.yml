@@ -1,0 +1,24 @@
+uuid: 364b2907-6519-4824-b32c-daaeeafa1032
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_back_block
+    - field.field.block_content.call_back_block.field_call_back
+  module:
+    - webform
+id: block_content.call_back_block.default
+targetEntityType: block_content
+bundle: call_back_block
+mode: default
+content:
+  field_call_back:
+    type: webform_entity_reference_entity_view
+    label: hidden
+    settings:
+      source_entity: true
+      lazy: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

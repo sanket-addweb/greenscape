@@ -1,0 +1,25 @@
+uuid: 75cef46a-3428-47a0-89d5-ad1012a2fa9d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_back_block
+    - field.storage.block_content.field_call_back
+  module:
+    - webform
+id: block_content.call_back_block.field_call_back
+field_name: field_call_back
+entity_type: block_content
+bundle: call_back_block
+label: 'Call back'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform
