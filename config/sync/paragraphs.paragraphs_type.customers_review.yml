@@ -1,0 +1,10 @@
+uuid: 32e74ce7-c46f-4501-bf79-edfb3bb7d71a
+langcode: en
+status: true
+dependencies: {  }
+id: customers_review
+label: 'Customers review'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -43,31 +43,19 @@
     'paragraph',
     'paragraph--type--' ~ paragraph.bundle|clean_class,
     view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
-    not paragraph.isPublished() ? 'paragraph--unpublished',
-    'container'
+    not paragraph.isPublished() ? 'paragraph--unpublished'
   ]
 %}
 {% block paragraph %}
-  {# <div class="carousel-item"> #}
-  <div{{ attributes.addClass(classes) }}>
+  {# <div{{ attributes.addClass(classes) }}> #}
     {% block content %}
-      {# <div class="container"> #}
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="banner_taital_main">
-              <h1 class="banner_taital">{{ content.field_title }}</h1>
-              <div class="banner_text"> {{ content.field_description }} </div>
-              <div class="btn_main">
-                {% if content.field_cta.0['#url'] %}
-                  <div class="started_text"><a href="{{ content.field_cta.0['#url'] }}">{{ content.field_cta.0['#title'] }}</a></div>
-                  <div class="started_text active"><a href="{{ content.field_cta.1['#url'] }}">{{ content.field_cta.1['#title'] }}</a></div>
-                {% endif %}
-              </div>
-            </div>
-          </div>
+      <div class="item">
+        <div class="client_box">
+          <div class="client_img">{{ content.field_image }}</div>
+          <h2 class="looking_text">{{ content.field_title }}</h2>
+          <p class="dummy_text">{{ content.field_description.0|raw }}</p>
         </div>
-      {# </div> #}
+      </div>
     {% endblock %}
-  </div>
   {# </div> #}
 {% endblock paragraph %}

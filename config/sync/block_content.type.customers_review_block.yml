@@ -1,0 +1,8 @@
+uuid: f794034f-0fc3-4da7-bbc0-8c6b180ac01e
+langcode: en
+status: true
+dependencies: {  }
+id: customers_review_block
+label: 'Customers review Block'
+revision: 0
+description: ''
