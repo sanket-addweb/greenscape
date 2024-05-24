@@ -1,0 +1,11 @@
+uuid: d5d4a1d1-3700-442d-88f2-52a3e9aa6acc
+langcode: en
+status: true
+dependencies: {  }
+id: video_block
+block_id: 'inline_block:video_block'
+category: green_scape
+label: 'Video Block'
+image_path: ''
+image_alt: ''
+weight: -100

@@ -1,0 +1,24 @@
+uuid: 6e1c89db-fb47-4d0c-96ae-32e1bd550e49
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_services_block
+    - field.field.block_content.our_services_block.field_our_services
+  module:
+    - entity_reference_revisions
+id: block_content.our_services_block.default
+targetEntityType: block_content
+bundle: our_services_block
+mode: default
+content:
+  field_our_services:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
