@@ -26,6 +26,7 @@
         "drupal/layout_builder_browser": "^1.6",
         "drupal/layout_builder_modal": "^1.2",
         "drupal/paragraphs": "^1.17",
+        "drupal/webform": "^6.2",
         "drush/drush": "^12.5"
     },
     "conflict": {

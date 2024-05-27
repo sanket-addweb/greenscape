@@ -1,0 +1,11 @@
+uuid: 1e4aca34-50c3-412e-afb2-b505a3dd0ac9
+langcode: en
+status: true
+dependencies: {  }
+id: call_back_block
+block_id: 'inline_block:call_back_block'
+category: green_scape
+label: 'Call back Block'
+image_path: ''
+image_alt: ''
+weight: -100

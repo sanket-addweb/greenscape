@@ -1,0 +1,31 @@
+uuid: 62eeb84a-85d0-45b4-b9ae-74713da87f8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.call_back_block
+    - field.field.block_content.call_back_block.field_call_back
+  module:
+    - webform
+id: block_content.call_back_block.default
+targetEntityType: block_content
+bundle: call_back_block
+mode: default
+content:
+  field_call_back:
+    type: webform_entity_reference_select
+    weight: 26
+    region: content
+    settings:
+      default_data: true
+      webforms: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
